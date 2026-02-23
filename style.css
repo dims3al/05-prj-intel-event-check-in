@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -253,6 +254,17 @@ button .fas {
   display: none;
 }
 
+#celebrationMessage {
+  font-weight: 600;
+  font-size: 18px;
+  padding: 16px 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  display: none;
+  background-color: #fff7cc;
+  color: #7c5e00;
+}
+
 .success-message {
   background-color: #e8f4fc;
   color: #003c71;
@@ -331,6 +343,10 @@ select {
   gap: 5px;
 }
 
+.team-card.winner {
+  outline: 3px solid #0071c5;
+}
+
 /* Team card colors */
 .team-card.water {
   background-color: #e8f7fc;
@@ -346,6 +362,40 @@ select {
   font-size: 15px;
   font-weight: 500;
   color: #475569;
+}
+
+.team-count {
+  font-size: 20px;
+  font-weight: 700;
+  color: #003c71;
+}
+
+.attendee-list-section {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #f1f5f9;
+  text-align: left;
+}
+
+.attendee-list-section h3 {
+  color: #64748b;
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+#attendeeList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#attendeeList li {
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: #334155;
 }
 
 /* Mobile responsive */
